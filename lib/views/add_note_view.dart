@@ -63,7 +63,7 @@ class _AddNoteViewState extends State<AddNoteView> {
               padding: const EdgeInsets.symmetric(vertical: 16),
               child: ElevatedButton(
                 onPressed: isEdit ? updateData : submitData,
-                child: Text(isEdit ? 'Edit' : 'Add'),
+                child: Text(isEdit ? 'Save' : 'Add'),
               ),
             )
           ],
